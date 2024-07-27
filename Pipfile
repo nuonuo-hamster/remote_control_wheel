@@ -1,0 +1,42 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypitunatsinghuaedu"
+
+[packages]
+opencv-python = "*"
+keyboard = "*"
+pillow = ">=8.3.2"
+pyserial = "*"
+pyrealsense2 = "*"
+torch = {file = "torch-2.1.0+cu118-cp38-cp38-win_amd64.whl"}
+torchaudio = {file = "torchaudio-2.1.0+cu118-cp38-cp38-win_amd64.whl"}
+torchvision = {file = "torchvision-0.16.0+cu118-cp38-cp38-win_amd64.whl"}
+numpy = ">=1.19.2"
+scipy = ">=1.6.3"
+librosa = ">=0.9.1"
+soundfile = ">=0.12.1"
+soundcard = ">=0.4.2"
+resampy = ">=0.2.2"
+numba = ">=0.53.0"
+pydub = "~=0.25.1"
+matplotlib = ">=3.5.2"
+termcolor = ">=1.1.0"
+typeguard = "==2.13.3"
+tqdm = ">=4.64.1"
+visualdl = ">=2.2.3"
+pyyaml = ">=5.4.1"
+scikit-learn = ">=1.0.2"
+torchinfo = ">=1.7.2"
+av = ">=10.0.0"
+macls = {version = "*", index = "pypitunatsinghuaedu"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

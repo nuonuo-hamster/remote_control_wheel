@@ -1,0 +1,10 @@
+background
+backward
+forward
+shiftLeft
+shiftRight
+slowDown
+speedUp
+stop
+turnLeft
+turnRight
